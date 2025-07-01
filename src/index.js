@@ -12,7 +12,7 @@ root.render(
 );
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-fetch(`${apiUrl}/api/hello`)
+fetch(`${API_URL}/api/about`)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
